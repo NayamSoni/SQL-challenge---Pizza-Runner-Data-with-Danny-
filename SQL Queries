@@ -1,0 +1,4 @@
+-- 1. How many pizzas were ordered?
+
+select count(order_id) pizzas_ordered
+from pizza_runner.customer_orders ;
