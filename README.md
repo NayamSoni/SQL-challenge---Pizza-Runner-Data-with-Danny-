@@ -12,3 +12,7 @@ He recruited "runners" to deliver fresh pizza from his headquarters (his house) 
 
 To optimize Pizza Runner's operations, Danny understands the importance of data collection. I will help clean the data and perform necessary calculations for better 
 directing the runners and improving the business's efficiency. All datasets are within the pizza_runner database schema. Let's get started! 🍕
+
+Dataset Link - https://8weeksqlchallenge.com/case-study-2/
+
+Online Platform - https://www.db-fiddle.com/f/7VcQKQwsS3CTkGRFG7vu98/65
