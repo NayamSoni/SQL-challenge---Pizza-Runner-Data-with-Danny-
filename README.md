@@ -1,5 +1,7 @@
 # SQL-challenge---Pizza-Runner-Data-with-Danny-
-As we know, Pizza is the Future! 🍕 So let's work on this case study.  -- Part A of Pizza Runner i.e. Pizza Metrics --
+As we know, Pizza is the Future! 🍕 So let's work on this case study. 
+
+-- Part A of Pizza Runner i.e. Pizza Metrics --
 
 👉 Introduction:
 
