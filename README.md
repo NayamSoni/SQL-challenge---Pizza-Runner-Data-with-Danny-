@@ -16,3 +16,30 @@ directing the runners and improving the business's efficiency. All datasets are 
 Dataset Link - https://8weeksqlchallenge.com/case-study-2/
 
 Online Platform - https://www.db-fiddle.com/f/7VcQKQwsS3CTkGRFG7vu98/65
+
+Case Study Questions: 
+
+-- 1. How many pizzas were ordered?
+
+select count(order_id) pizzas_ordered
+from pizza_runner.customer_orders ;
+
+Solution- A total of 14 pizzas were ordered. 
+
+-- 2. How many unique customer orders were made?
+
+select count(distinct order_id) unique_orders
+from pizza_runner.customer_orders ;
+
+Solution- There were a total of 10 unique orders. 
+
+-- 3. How many successful orders were delivered by each runner?
+
+select runner_id,count(order_id) as successful_orders
+from pizza_runner.runner_orders 
+where distance <> 'null'
+       group by runner_id
+       order by runner_id;
+
+Solution - ![image](https://github.com/NayamSoni/SQL-challenge---Pizza-Runner-Data-with-Danny-/assets/98815102/e95f4727-bc62-488e-8fd6-fb0d39600b3d)
+
